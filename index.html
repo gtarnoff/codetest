@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+  <div class="container">
+  <h1>Autocomplete Textarea</h1>
+  <p>Type in the textarea below. Use the @ to trigger a search for usernames. 
+  Clicking a username or hitting tab should complete the name.</p>
+  <form class="form" action="" name="autocomplete">
+    <label class="label" for="autocomplete1">Comment</label>
+    <textarea id="autocomplete1" class="textarea" name="" cols="40" rows="10"></textarea>
+  </form>
+  <div id="userList" class="list hidden">
+  </div>
+  </div>
+   <script src="js/jquery-2.2.0.min.js"></script>
+   <script src="js/main-built.js"></script>
+
+</body>
+</html>

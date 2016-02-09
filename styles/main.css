@@ -1,0 +1,59 @@
+body, html {
+  font-family: Helvetica;
+  box-sizing: border-box; }
+
+* {
+  box-sizing: inherit; }
+
+h1 {
+  font-weight: 100; }
+
+.container {
+  max-width: 800px;
+  margin: 0 auto; }
+
+.form {
+  width: 60%;
+  margin: 20px 10px;
+  floaT: left; }
+
+.label, .textarea {
+  width: 100%;
+  display: block; }
+
+.list {
+  width: 30%;
+  border: 1px solid lightblue;
+    border-radius: 5px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.4);
+  min-height: 50px;
+  float: left;
+  max-height: 300px;
+  overflow: auto;
+  transition: all ease-in-out 0.5;
+  opacity: 1; }
+  .list.hidden {
+    opacity: 0;
+    transition: opacity ease-in-out 0.25s; }
+
+.user__img {
+  width: 32px;
+  border-radius: 50%;
+  display: block;
+  float: left; }
+
+.user {
+  padding: 10px;
+  overflow: hidden;
+  height: auto;
+  border-bottom: 1px solid #ccc; }
+  .user:focus, .user:hover {
+    background: lightblue; }
+
+.name__user {
+  float: left;
+  margin-left: 10px; }
+  .name__user p {
+    margin: 0; }
+
+/*# sourceMappingURL=main.css.map */
